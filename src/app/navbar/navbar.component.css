@@ -1,0 +1,31 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h1{
+    color: darkgrey;
+    font-size: x-large;
+}
+
+.navbar ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 5%;
+}
+
+.navbar li{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.navbar .navbar-search
+{
+    margin-top: 2%;
+}
